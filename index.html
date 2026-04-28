@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cybersecurity student portfolio — ethical hacking, network security, and penetration testing. Aspiring security analyst." />
+  <meta name="keywords" content="cybersecurity, ethical hacking, penetration testing, network security, security analyst, portfolio" />
+  <meta name="author" content="KOTHAPALLI DINESH" />
+  <meta property="og:title" content="KOTHAPALLI DINESH | Cybersecurity Portfolio" />
+  <meta property="og:description" content="Cybersecurity student & aspiring security analyst specializing in ethical hacking and network security." />
+  <meta property="og:type" content="website" />
+  <title>KOTHAPALLI DINESH | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ════════════ NAV ════════════ -->
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" aria-label="Home">&lt;<span>KD</span>/&gt;</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#certifications">certs</a></li>
+      <li><a href="#resume">resume</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ════════════ HERO ════════════ -->
+<section id="hero" aria-label="Introduction">
+  <div class="container">
+    <div class="hero-inner">
+
+      <div class="hero-content">
+        <div class="hero-label">Cybersecurity Student &amp; Analyst-in-Training</div>
+        <h1 class="hero-name">KOTHAPALLI <span class="highlight">DINESH</span></h1>
+        <p class="hero-role">Ethical Hacker &amp; Security Researcher</p>
+        <div class="terminal-text" id="terminal-tagline" aria-live="polite">
+          <span class="prompt">root@kali:~$ </span><span id="typed-text"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-tagline">
+          Passionate about <em>securing systems</em> and <em>breaking vulnerabilities</em> —
+          Currently pursuing B.Tech CSE (Cybersecurity) at KL University.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary" id="view-projects-btn">
+            <i class="fas fa-terminal"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline" id="contact-btn">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap reveal-right">
+        <div class="hero-image-ring">
+          <img src="avatar.png" alt="Cybersecurity portfolio avatar" class="hero-img" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ ABOUT ════════════ -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// about_me</p>
+    <h2 class="section-title reveal" id="about-title">Who Am <span class="highlight">I?</span></h2>
+
+    <div class="about-grid" style="margin-top:3rem">
+
+      <div class="about-text reveal-left">
+        <p>
+          Hey! I'm a <strong class="highlight">Cybersecurity enthusiast</strong> and B.Tech Computer Science student
+          with a deep passion for understanding how systems are built — and how they break.
+        </p>
+        <p>
+          I spend my time experimenting in Kali Linux, writing Python scripts to automate security tasks,
+          and diving into CTF challenges. My goal is to become a professional <strong class="highlight">Security Analyst</strong>
+          and help organizations build resilient defenses.
+        </p>
+        <p>
+          When I'm not running nmap scans or reading CVEs, I'm learning about
+          <em>network protocols, web vulnerabilities, and exploit development</em>.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat-card reveal delay-1">
+            <div class="stat-number">2</div>
+            <div class="stat-label">projects built</div>
+          </div>
+          <div class="stat-card reveal delay-2">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">CTFs played</div>
+          </div>
+          <div class="stat-card reveal delay-3">
+            <div class="stat-number">1+</div>
+            <div class="stat-label">years learning</div>
+          </div>
+          <div class="stat-card reveal delay-4">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">curiosity</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-info reveal-right">
+        <div class="info-item">
+          <div class="info-icon">🎓</div>
+          <div>
+            <h4>Education</h4>
+             <p>B.Tech CSE — Cybersecurity Specialization<br>KL University</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🔐</div>
+          <div>
+            <h4>Focus Areas</h4>
+            <p><strong class="highlight">Cloud Security</strong> · Ethical Hacking · Penetration Testing · Network Security · Web App Security</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">💻</div>
+          <div>
+            <h4>Primary OS</h4>
+            <p>Kali Linux · Ubuntu · Windows</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🌍</div>
+          <div>
+            <h4>Looking For</h4>
+            <p>Security Internships · Entry-level SOC / Pentest roles</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ SKILLS ════════════ -->
+<section id="skills" aria-labelledby="skills-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// skills.exe</p>
+    <h2 class="section-title reveal" id="skills-title">Technical <span class="highlight">Skills</span></h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-category reveal delay-1">
+        <div class="skill-cat-icon">🐍</div>
+        <div class="skill-cat-title">Programming &amp; Scripting</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Bash</span>
+          <span class="skill-tag">PowerShell</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal delay-2">
+        <div class="skill-cat-icon">🌐</div>
+        <div class="skill-cat-title">Networking &amp; Protocols</div>
+        <div class="skill-tags">
+          <span class="skill-tag green">TCP/IP</span>
+          <span class="skill-tag green">OSI Model</span>
+          <span class="skill-tag green">DNS</span>
+          <span class="skill-tag green">HTTP/S</span>
+          <span class="skill-tag green">VPN</span>
+          <span class="skill-tag green">Firewalls</span>
+          <span class="skill-tag green">Subnetting</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal delay-3">
+        <div class="skill-cat-icon">🛠️</div>
+        <div class="skill-cat-title">Security Tools</div>
+        <div class="skill-tags">
+          <span class="skill-tag purple">Nmap</span>
+          <span class="skill-tag purple">Wireshark</span>
+          <span class="skill-tag purple">Metasploit</span>
+          <span class="skill-tag purple">Burp Suite</span>
+          <span class="skill-tag purple">Hydra</span>
+          <span class="skill-tag purple">John the Ripper</span>
+          <span class="skill-tag purple">Nikto</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal delay-4">
+        <div class="skill-cat-icon">🐧</div>
+        <div class="skill-cat-title">Operating Systems</div>
+        <div class="skill-tags">
+          <span class="skill-tag red">Kali Linux</span>
+          <span class="skill-tag red">Ubuntu</span>
+          <span class="skill-tag red">Parrot OS</span>
+          <span class="skill-tag red">Windows</span>
+          <span class="skill-tag red">Windows Server</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal delay-1">
+        <div class="skill-cat-icon">☁️</div>
+        <div class="skill-cat-title">Cloud Security</div>
+        <div class="skill-tags">
+          <span class="skill-tag">IAM Policies</span>
+          <span class="skill-tag">Zero Trust</span>
+          <span class="skill-tag">Cloud Misconfigurations</span>
+          <span class="skill-tag">CSPM</span>
+          <span class="skill-tag">Data Encryption</span>
+          <span class="skill-tag">Threat Detection</span>
+          <span class="skill-tag">S3 Bucket Security</span>
+        </div>
+      </div>
+
+      <div class="skill-category reveal delay-2">
+        <div class="skill-cat-icon">⚡</div>
+        <div class="skill-cat-title">Other Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag green">Git &amp; GitHub</span>
+          <span class="skill-tag green">Docker</span>
+          <span class="skill-tag green">VirtualBox / VMware</span>
+          <span class="skill-tag green">CTF Competitions</span>
+          <span class="skill-tag green">Report Writing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ PROJECTS ════════════ -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// projects.sh</p>
+    <h2 class="section-title reveal" id="projects-title">Featured <span class="highlight">Projects</span></h2>
+
+    <div class="projects-grid">
+
+      <!-- Project: safe-execution-monitor -->
+      <article class="project-card reveal delay-1">
+        <div class="project-header">
+          <div class="project-icon">🔬</div>
+          <div class="project-links">
+            <a href="https://github.com/kdineshklu/safe-execution-monitor" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Repository" aria-label="Safe Execution Monitor GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Safe Execution Monitor</h3>
+        <p>A safe, educational behavior analysis toolkit that observes system-level and network-level activity of programs in a controlled environment. Captures syscalls via <em>strace</em>, network traffic via <em>tcpdump</em>, and generates automated behavior reports. Includes a beginner-friendly Python GUI — ideal for SOC analysts and malware analysis fundamentals.</p>
+        <div class="project-tools">
+          <span class="project-tool">Python</span>
+          <span class="project-tool">Bash</span>
+          <span class="project-tool">strace</span>
+          <span class="project-tool">tcpdump</span>
+          <span class="project-tool">Tkinter</span>
+          <span class="project-tool">Linux</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ CERTS ════════════ -->
+<section id="certifications" aria-labelledby="certs-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// certifications.json</p>
+    <h2 class="section-title reveal" id="certs-title">Certifications &amp; <span class="highlight">Achievements</span></h2>
+
+    <div class="certs-grid">
+
+      <div class="cert-card reveal delay-1">
+        <div class="cert-badge">🔐</div>
+        <div class="cert-info">
+          <h4>CompTIA Security+</h4>
+          <p>CompTIA &mdash; Target: 20XX</p>
+          <span class="cert-status pending">In Progress</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal delay-2">
+        <div class="cert-badge">🌐</div>
+        <div class="cert-info">
+          <h4>Certified Ethical Hacker (CEH)</h4>
+          <p>EC-Council &mdash; Target: 20XX</p>
+          <span class="cert-status pending">Planned</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal delay-3">
+        <div class="cert-badge">🐧</div>
+        <div class="cert-info">
+          <h4>Google Cybersecurity Certificate</h4>
+          <p>Google / Coursera &mdash; 20XX</p>
+          <span class="cert-status">Completed</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal delay-4">
+        <div class="cert-badge">🕵️</div>
+        <div class="cert-info">
+          <h4>TryHackMe Jr Penetration Tester</h4>
+          <p>TryHackMe &mdash; 20XX</p>
+          <span class="cert-status">Completed</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal delay-1">
+        <div class="cert-badge">📡</div>
+        <div class="cert-info">
+          <h4>Cisco Networking Essentials</h4>
+          <p>Cisco NetAcad &mdash; 20XX</p>
+          <span class="cert-status">Completed</span>
+        </div>
+      </div>
+
+      <div class="cert-card reveal delay-2">
+        <div class="cert-badge">🏆</div>
+        <div class="cert-info">
+          <h4>OSCP (Offensive Security)</h4>
+          <p>Offensive Security &mdash; Future Goal</p>
+          <span class="cert-status pending">Planned</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ TERMINAL ════════════ -->
+<section id="terminal-section" aria-labelledby="terminal-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// terminal --interactive</p>
+    <h2 class="section-title reveal" id="terminal-title">Live <span class="highlight">Terminal</span></h2>
+    <p class="reveal" style="color:var(--text-secondary);margin-top:0.5rem;font-size:0.92rem">A snapshot of my typical workflow sessions.</p>
+
+    <div class="terminal-demo-box reveal" style="margin-top:2.5rem">
+      <div class="terminal-bar">
+        <span class="terminal-dot red"></span>
+        <span class="terminal-dot yellow"></span>
+        <span class="terminal-dot green"></span>
+        <span class="terminal-title">root@kali:~ — bash</span>
+      </div>
+      <div class="terminal-demo-body" id="terminal-demo">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ RESUME ════════════ -->
+<section id="resume" aria-labelledby="resume-title">
+  <div class="container">
+    <div class="resume-inner">
+
+      <div class="resume-text reveal-left">
+        <p class="section-subtitle">// resume.pdf</p>
+        <h2 class="section-title" id="resume-title">Download <span class="highlight">Resume</span></h2>
+        <p>
+          My resume highlights my technical skills, academic background, and hands-on cybersecurity projects.
+          Ready for internships and entry-level security roles.
+        </p>
+        <div class="resume-highlights">
+          <div class="resume-highlight">B.Tech CSE — Cybersecurity Specialization (KL University)</div>
+          <div class="resume-highlight">Hands-on lab experience with Kali Linux</div>
+          <div class="resume-highlight">5+ cybersecurity projects on GitHub</div>
+          <div class="resume-highlight">Active CTF &amp; TryHackMe participant</div>
+          <div class="resume-highlight">Strong Python &amp; Bash scripting skills</div>
+        </div>
+        <a href="resume.pdf" download class="btn btn-green" id="download-resume-btn">
+          <i class="fas fa-download"></i> Download Resume (PDF)
+        </a>
+      </div>
+
+      <div class="resume-preview reveal-right">
+<pre class="resume-preview">
+<span class="rp-comment"># ========================</span>
+<span class="rp-comment"># resume.json — KOTHAPALLI DINESH</span>
+<span class="rp-comment"># ========================</span>
+
+{
+  <span class="rp-cyan">"name"</span>: <span class="rp-green">"Kothapalli Dinesh"</span>,
+  <span class="rp-cyan">"role"</span>: <span class="rp-green">"Cybersecurity Student"</span>,
+  <span class="rp-cyan">"github"</span>: <span class="rp-green">"github.com/kdineshklu"</span>,
+  <span class="rp-cyan">"education"</span>: {
+    <span class="rp-cyan">"degree"</span>: <span class="rp-green">"B.Tech CSE (Cybersecurity)"</span>,
+    <span class="rp-cyan">"university"</span>: <span class="rp-green">"KL University"</span>,
+    <span class="rp-cyan">"status"</span>: <span class="rp-green">"Ongoing"</span>
+  },
+  <span class="rp-cyan">"skills"</span>: [<span class="rp-green">"Python"</span>, <span class="rp-green">"Nmap"</span>, ...],
+  <span class="rp-cyan">"projects"</span>: 5,
+  <span class="rp-cyan">"ctf_rank"</span>: <span class="rp-green">"Top 15%"</span>,
+  <span class="rp-cyan">"available"</span>: <span class="rp-cyan">true</span>
+}
+</pre>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ════════════ CONTACT ════════════ -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <p class="section-subtitle reveal">// contact.sh</p>
+    <h2 class="section-title reveal" id="contact-title">Get In <span class="highlight">Touch</span></h2>
+
+    <div class="contact-wrapper">
+
+      <div class="contact-info reveal-left">
+        <h3>Let's Connect</h3>
+        <p>Open to cybersecurity internships, collaborations on security research, and CTF teams. Drop me a message!</p>
+
+        <div class="contact-items">
+          <a href="mailto:dineshkothapalli09@gmail.com" class="contact-item" id="email-link">
+            <span class="contact-item-icon">📧</span>
+            <div>
+              <div class="contact-item-label">email</div>
+              <div class="contact-item-value">dineshkothapalli09@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/dineshkothapalli09" target="_blank" rel="noopener noreferrer" class="contact-item" id="linkedin-link">
+            <span class="contact-item-icon"><i class="fab fa-linkedin"></i></span>
+            <div>
+              <div class="contact-item-label">linkedin</div>
+              <div class="contact-item-value">linkedin.com/in/dineshkothapalli09</div>
+            </div>
+          </a>
+          <a href="https://github.com/kdineshklu" target="_blank" rel="noopener noreferrer" class="contact-item" id="github-link">
+            <span class="contact-item-icon"><i class="fab fa-github"></i></span>
+            <div>
+              <div class="contact-item-label">github</div>
+              <div class="contact-item-value">github.com/kdineshklu</div>
+            </div>
+          </a>
+          <a href="https://tryhackme.com/p/iii.ryzenn" target="_blank" rel="noopener noreferrer" class="contact-item" id="thm-link">
+            <span class="contact-item-icon">🏴‍☠️</span>
+            <div>
+              <div class="contact-item-label">tryhackme</div>
+              <div class="contact-item-value">tryhackme.com/p/iii.ryzenn</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="terminal-box reveal-right">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">contact_form.sh</span>
+        </div>
+        <div class="terminal-body">
+          <form id="contact-form" onsubmit="handleContactForm(event)" novalidate>
+            <div class="form-group">
+              <label for="contact-name">name</label>
+              <input type="text" id="contact-name" name="name" placeholder="John Doe" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">email</label>
+              <input type="email" id="contact-email" name="email" placeholder="john@example.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="contact-msg">message</label>
+              <textarea id="contact-msg" name="message" placeholder="Hey, I'd like to connect about..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-send" id="send-msg-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <p id="form-success" style="display:none;color:var(--green);font-family:'Fira Code',monospace;font-size:0.8rem;margin-top:0.75rem">
+            ✓ Message sent! I'll get back to you soon.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; 2026 <span>KOTHAPALLI DINESH</span> — <span>root@kali:~$</span> built with ❤️ &amp; caffeine
+      </p>
+      <div class="footer-socials" aria-label="Social media links">
+        <a href="mailto:dineshkothapalli09@gmail.com" class="footer-social" title="Email" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/kdineshklu" target="_blank" rel="noopener noreferrer" class="footer-social" title="GitHub" aria-label="GitHub Profile">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/dineshkothapalli09" target="_blank" rel="noopener noreferrer" class="footer-social" title="LinkedIn" aria-label="LinkedIn Profile">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://tryhackme.com/p/iii.ryzenn" target="_blank" rel="noopener noreferrer" class="footer-social" title="TryHackMe" aria-label="TryHackMe Profile">
+          <i class="fas fa-flag"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="back-top" aria-label="Back to top" title="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
